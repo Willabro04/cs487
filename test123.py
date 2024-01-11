@@ -20,3 +20,7 @@ if not os.path.exists(RUN_FOLDER):
     os.mkdir(os.path.join(RUN_FOLDER, 'weights'))
 
 mode =  'build' #'load' #
+
+
+
+print("something else, I changed my file")
