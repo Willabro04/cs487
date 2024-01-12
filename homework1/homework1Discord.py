@@ -62,7 +62,7 @@ async def on_message(message):
         response = random.choice(bot_quotes)
         await message.channel.send(response)
     
-    if message.content == 'generateGANIMG':
+    if message.content == 'generateVAEIMG':
         ......
 
 
