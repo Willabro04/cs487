@@ -2,6 +2,7 @@ print("homework 1 python script")
 
 
 import os
+import random
 import matplotlib.pyplot as plt
 
 from models.GAN import GAN
@@ -37,7 +38,7 @@ import discord
 client = discord.Client()
 
 GUILD= "GUILDNAME"        #{your-guild-name}
-TOKEN = "OTExMzI0NTU5MTkxxxxxxxx"    # you should copy your token for your bot 
+TOKEN = "MTE5MjkyOTAyOTM0NzYxNDc2MQ.GWdXO5.aPzQ488DooSNnsgq4u836FTLZWiTYMPNd6ie2w"    # you should copy your token for your bot 
 
 
 @client.event
@@ -63,7 +64,7 @@ async def on_message(message):
         await message.channel.send(response)
     
     if message.content == 'generateVAEIMG':
-        ......
+        ...
 
 
         fig, axs = plt.subplots(r, c, figsize=(15,15))
